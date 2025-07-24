@@ -8,6 +8,8 @@
     <img src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/bar.gif">
 </p>
 
+## Installation
+### NASM
 <details>
  
  <summary>For Debian, Ubuntu, Linux Mint</summary>
