@@ -1,5 +1,5 @@
-# [Assembly](https://en.wikipedia.org/wiki/X86_assembly_language) Toolkit
-[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtube.com/playlist?list=PL9V4Zu3RroiXc0OUA9u4KQtYUFAQog0WX&si=PY8IncGQsTuUkjGi) [![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white)](https://www.reddit.com/r/Assembly_language)
+# [Assembly](https://en.wikipedia.org/wiki/X86_assembly_language) Programming Toolkit
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtube.com/playlist?list=PL9V4Zu3RroiXc0OUA9u4KQtYUFAQog0WX&si=PY8IncGQsTuUkjGi) [![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white)](https://www.reddit.com/r/Assembly_language) [![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/cybersecurity-dev/Bash-Toolkit?tab=readme-ov-file#programming-language) [![Windows](https://custom-icon-badges.demolab.com/badge/Windows-0078D6?style=for-the-badge&logo=windows11&logoColor=white)](https://github.com/cybersecurity-dev/PowerShell-Toolkit?tab=readme-ov-file#programming-language)
 <p align="center">
     <a href="https://github.com/cybersecurity-dev/"><img height="25" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/github.svg" alt="GitHub"></a>
     &nbsp;
