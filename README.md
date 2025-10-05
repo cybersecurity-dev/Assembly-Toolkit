@@ -43,4 +43,16 @@ sudo pacman -S nasm
  </details>
 
 
-You can access the Awesome Assembly Programming Language [here](https://github.com/cybersecurity-dev/awesome-assembly-programming-language)
+
+##
+
+### Contributing
+
+[Contributions of any kind welcome, just follow the guidelines](contributing.md)!
+
+### Contributors
+
+[Thanks goes to these contributors](https://github.com/cybersecurity-dev/Assembly-Toolkit/graphs/contributors)!
+
+[🔼 Back to top](#assembly-development-toolkit)
+
