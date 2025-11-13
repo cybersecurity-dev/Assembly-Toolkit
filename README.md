@@ -51,7 +51,7 @@ sudo pacman -S nasm
 ##
 
 ### My Awesome Lists
-You can access the my other awesome lists [here](https://cyberthreatdefence.com/my_awesome_lists)
+You can access the my awesome lists [here](https://cyberthreatdefence.com/my_awesome_lists)
 
 ### Contributing
 
