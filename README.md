@@ -59,6 +59,16 @@ sudo pacman -S nasm
  ```
  </details>
 
+## Compile & Rum Assembly Code
+<details>
+ 
+ <summary>For Debian, Ubuntu, Linux Mint</summary>
+  
+ ```bash
+ nasm -felf64 helloworld.asm && ld helloworld.o && ./a.out
+ ```
+ </details>
+
 
 ##
 
