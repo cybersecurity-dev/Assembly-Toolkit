@@ -60,14 +60,28 @@ sudo pacman -S nasm
  </details>
 
 ## Compile & Rum Assembly Code
-<details>
- 
- <summary>For Debian, Ubuntu, Linux Mint</summary>
-  
- ```bash
- nasm -felf64 helloworld.asm && ld helloworld.o && ./a.out
- ```
- </details>
+<details> 
+<summary>For Debian, Ubuntu, Linux Mint</summary>
+
+```bash
+nasm -felf64 helloworld.asm && ld helloworld.o && ./a.out
+```
+</details>
+
+### helloworld.asm Instructions
+
+| Instruction | Description                 |
+|-------------|-----------------------------|
+| mov x, y    | \( x ← y \)                 |
+| and x, y    | \( x ← x ∧ y \)             |
+| or x, y     | \( x ← x ∨ y \)             |
+| xor x, y    | \( x ← x ⊕ y \)            |
+| add x, y    | \( x ← x + y \)             |
+| sub x, y    | \( x ← x - y \)             |
+| inc x       | \( x ← x + 1 \)             |
+| dec x       | \( x ← x - 1 \)             |
+| syscall     | system call                 |
+| db          | Define Byte. 8 bits         |
 
 
 ##
