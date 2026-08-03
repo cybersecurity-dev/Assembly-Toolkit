@@ -90,12 +90,12 @@ nasm -felf64 helloworld.asm && ld helloworld.o && ./a.out
 You can access the my awesome lists [here](https://cyberthreatdefence.com/my_awesome_lists)
 
 ### Contributing
-
 [Contributions of any kind welcome, just follow the guidelines](contributing.md)!
 
 ### Contributors
-
 [Thanks goes to these contributors](https://github.com/cybersecurity-dev/Assembly-Toolkit/graphs/contributors)!
 
-[🔼 Back to top](#assembly-development-toolkit)
+### License
+[![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](http://creativecommons.org/publicdomain/zero/1.0)
 
+[🔼 Back to top](#assembly-development-toolkit)
