@@ -1,13 +1,15 @@
 # Hello World Example
 
-## x86
+## Linux
+
+### x86
 
 ```bash
 nasm -f elf32 helloworld_x86.asm -o helloworld.o
 ld -m elf_i386 helloworld.o -o helloworld
 ./helloworld
 ```
-## x64
+### x64
 
 ```bash
 nasm -f elf64 helloworld_x64.asm -o helloworld.o
@@ -15,7 +17,7 @@ ld -m elf_x86_64 helloworld.o -o helloworld
 ./helloworld
 ```
 
-## Make
+### Make
 - Usage: `Build 32-bit`
     ```bash
     make x86
@@ -28,3 +30,19 @@ ld -m elf_x86_64 helloworld.o -o helloworld
     ```bash
     make clean
     ```
+## Windows
+
+
+### x86
+
+```bash
+
+```
+
+### x64
+
+```bash
+
+```
+
+### Make
