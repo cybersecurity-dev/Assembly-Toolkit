@@ -1,4 +1,4 @@
-# Hello World Example
+# Hello World
 
 ## Linux
 
@@ -30,19 +30,43 @@ ld -m elf_x86_64 helloworld.o -o helloworld
     ```bash
     make clean
     ```
+
+
+---
+---
+
 ## Windows
 
-
 ### x86
+Those symbols are Win32 API functions:
+- GetStdHandle → exported by `Kernel32.dll`
+- WriteFile → exported by `Kernel32.dll`
+- ExitProcess → exported by `Kernel32.dll`
 
-```bash
-
+```powershell
+"C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Auxiliary\Build\vcvars32.bat"
+nasm -f win32 helloworld_win_x86.asm -o helloworld_win_x86.obj
+link helloworld_win_x86.obj kernel32.lib /subsystem:console /entry:main
 ```
 
 ### x64
 
-```bash
-
+```powershell
+"C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Auxiliary\Build\vcvars64.bat"
+nasm -f win32 helloworld_win_x86.asm -o helloworld_win_x86.obj
+link helloworld_win_x64.obj kernel32.lib /entry:main /subsystem:console
 ```
 
 ### Make
+- Usage: `Build 32-bit`
+    ```powershell
+    make x86
+    ```
+- Usage: `Build 64-bit`
+    ```powershell
+    make x64
+    ```
+- Clean everything:
+    ```powershell
+    make clean
+    ```
