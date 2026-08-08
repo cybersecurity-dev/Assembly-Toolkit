@@ -53,7 +53,7 @@ link helloworld_win_x86.obj kernel32.lib /subsystem:console /entry:main
 
 ```powershell
 "C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Auxiliary\Build\vcvars64.bat"
-nasm -f win64 helloworld_win_x86.asm -o helloworld_win_x86.obj
+nasm -f win64 helloworld_win_x64.asm -o helloworld_win_x64.obj
 link helloworld_win_x64.obj kernel32.lib /entry:main /subsystem:console
 ```
 
